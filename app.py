@@ -4,7 +4,7 @@ from langchain_openai import ChatOpenAI
 st.title("🤖 My First Agent App")
 
 passcode = st.text_input("Enter access code:", type="password")
-if passcode != "123456789!"#¤%&/()":  # Change this
+if passcode != '123456789!"#¤%&/()':  # Change this
     st.warning("Wrong code!")
     st.stop()
 
